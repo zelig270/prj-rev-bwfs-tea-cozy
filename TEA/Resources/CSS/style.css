@@ -1,0 +1,237 @@
+body{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin-left: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.logo {
+  color:seashell;
+  display: flex;
+  height: 100px;
+  background-size: cover;
+}
+nav a {
+  text-decoration:underline;
+  color: seashell;
+}
+
+/*Mission*/
+.Mission {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../Resources/Images/img-mission-background.jpg");
+  height: 500px;
+  background-size: cover;
+  width: 1200px;
+  padding-top: 300px;
+}
+
+.our {
+  display: flex;
+  flex-direction: column;
+  width:1200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-size: cover;
+}
+.our h4{
+  margin-top: 5px;
+}
+/*Teas*/
+.variety {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin-left: 30px;
+  height: 550px;
+}
+
+.Month {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  align-items:center;
+}
+.Month h4{
+  margin-top: 1px;
+}
+
+.fall {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 8px;
+  margin-left: 65px;
+}
+.berry {
+  display: flex;
+  background-image: url("../../Resources/Images/img-berryblitz.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  justify-content:center;
+  align-items: flex-end;
+}
+.blitz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.rum {
+  display: flex;
+  background-image: url("../../Resources/Images/img-spiced-rum.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+  margin-right: 4px;
+}
+.spice {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.donut {
+display: flex;
+background-image: url("../../Resources/Images/img-donut.jpg");
+background-size: cover;
+height: 200px;
+width: 300px;
+margin-right: 4px;
+}
+.season {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.myrtle {
+  display: flex;
+  background-image: url("../../Resources/Images/img-myrtle-ave.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-right: 4px;
+}
+.ave {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 75px;
+}
+.bedford {
+  display: flex;
+  background-image: url("../../Resources/Images/img-bedford-bizarre.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-right: 4px;
+}
+.bed{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/*Locations*/
+.stores {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 550px;
+  background-image: url("../../Resources/Images/img-locations-background.jpg");
+  background-size: cover;
+  margin-top: 15px;
+}
+.stores h2{
+  justify-content: center;
+}
+.downtown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.west {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+}
+.west h4{
+  padding-top: 0px;
+}
+.bayside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin-right: 40px;
+  }
+  .phish {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+
+  }
+  .Oak {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+  }
+  .crescent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+  }
+
+.local {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    align-items:center;
+  }
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 10px;
+}
